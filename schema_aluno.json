@@ -1,0 +1,424 @@
+{
+    "BigQuery Schema" : [
+      {
+        "name": "NU_ANO_CENSO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_IES",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_CATEGORIA_ADMINISTRATIVA",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_ORGANIZACAO_ACADEMICA",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_CURSO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_CURSO_POLO",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_TURNO",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_GRAU_ACADEMICO",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_MODALIDADE_ENSINO",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_NIVEL_ACADEMICO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_CINE_ROTULO",
+        "type": "STRING"
+      },
+      {
+        "name": "ID_ALUNO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_ALUNO_CURSO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_ALUNO_CURSO_ORIGEM",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_COR_RACA",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_SEXO",
+        "type": "STRING"
+      },
+      {
+        "name": "NU_ANO_NASCIMENTO",
+        "type": "STRING"
+      },
+      {
+        "name": "NU_MES_NASCIMENTO",
+        "type": "STRING"
+      },
+      {
+        "name": "NU_DIA_NASCIMENTO",
+        "type": "STRING"
+      },
+      {
+        "name": "NU_IDADE",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_NACIONALIDADE",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_PAIS_ORIGEM",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_UF_NASCIMENTO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_MUNICIPIO_NASCIMENTO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_AUDITIVA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_FISICA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_INTELECTUAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_MULTIPLA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_SURDEZ",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_SURDOCEGUEIRA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_BAIXA_VISAO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_CEGUEIRA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_DEFICIENCIA_SUPERDOTACAO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_TGD_AUTISMO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_TGD_SINDROME_ASPERGER",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_TGD_SINDROME_RETT",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_TGD_TRANSTOR_DESINTEGRATIVO",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_SITUACAO",
+        "type": "STRING"
+      },
+      {
+        "name": "QT_CARGA_HORARIA_TOTAL",
+        "type": "STRING"
+      },
+      {
+        "name": "QT_CARGA_HORARIA_INTEG",
+        "type": "STRING"
+      },
+      {
+        "name": "DT_INGRESSO_CURSO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_VESTIBULAR",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_ENEM",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_AVALIACAO_SERIADA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_SELECAO_SIMPLIFICA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_OUTRO_TIPO_SELECAO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_VAGA_REMANESC",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_VAGA_PROG_ESPECIAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_TRANSF_EXOFFICIO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_DECISAO_JUDICIAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_CONVENIO_PECG",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_EGRESSO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_OUTRA_FORMA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_RESERVA_VAGAS",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_RESERVA_ETNICO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_RESERVA_DEFICIENCIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_RESERVA_ENSINO_PUBLICO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_RESERVA_RENDA_FAMILIAR",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_RESERVA_OUTRA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FINANCIAMENTO_ESTUDANTIL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_REEMB_FIES",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_REEMB_ESTADUAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_REEMB_MUNICIPAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_REEMB_PROG_IES",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_REEMB_ENT_EXTERNA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_REEMB_OUTRA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_PROUNI_INTEGR",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_PROUNI_PARCIAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_ESTADUAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_MUNICIPAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_PROG_IES",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_ENT_EXTERNA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_FIN_NAOREEMB_OUTRA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_SOCIAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_ALIMENTACAO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_BOLSA_PERMANENCIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_BOLSA_TRABALHO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_MATERIAL_DIDATICO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_MORADIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_APOIO_TRANSPORTE",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_ATIVIDADE_EXTRACURRICULAR",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_COMPLEMENTAR_ESTAGIO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_COMPLEMENTAR_EXTENSAO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_COMPLEMENTAR_MONITORIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_COMPLEMENTAR_PESQUISA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_BOLSA_ESTAGIO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_BOLSA_EXTENSAO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_BOLSA_MONITORIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_BOLSA_PESQUISA",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_ESCOLA_CONCLUSAO_ENS_MEDIO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_ALUNO_PARFOR",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_SEMESTRE_CONCLUSAO",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_SEMESTRE_REFERENCIA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_MOBILIDADE_ACADEMICA",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_MOBILIDADE_ACADEMICA",
+        "type": "STRING"
+      },
+      {
+        "name": "TP_MOBILIDADE_ACADEMICA_INTERN",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_IES_DESTINO",
+        "type": "STRING"
+      },
+      {
+        "name": "CO_PAIS_DESTINO",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_MATRICULA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_CONCLUINTE",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_TOTAL",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_VAGA_NOVA",
+        "type": "STRING"
+      },
+      {
+        "name": "IN_INGRESSO_PROCESSO_SELETIVO",
+        "type": "STRING"
+      },
+      {
+        "name": "NU_ANO_INGRESSO",
+        "type": "STRING"
+      }
+    ]
+    }

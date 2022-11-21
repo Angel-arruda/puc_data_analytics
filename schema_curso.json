@@ -1,0 +1,676 @@
+{
+    "BigQuery Schema" : [
+    {
+       "mode":"NULLABLE",
+       "name":"NU_ANO_CENSO",
+       "description":"Ano de referência do Censo Superior",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_IES",
+       "description":"Código único de identificação da IES",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_CATEGORIA_ADMINISTRATIVA",
+       "description":"Tipo da Categoria Administrativa da IES",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_ORGANIZACAO_ACADEMICA",
+       "description":"Tipo da Organização Acadêmica da IES",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_LOCAL_OFERTA",
+       "description":"Código do local de oferta",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_UF",
+       "description":"Codigo do IBGE da unidade da federação do local de oferta do curso presencial",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_MUNICIPIO",
+       "description":"Código do IBGE do municipio do local de oferta do curso presencial",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_CAPITAL",
+       "description":"Informa se o local de oferta do curso presencial está localizado em capital de Estado",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_CURSO",
+       "description":"Código único de identificação do curso",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NO_CURSO",
+       "description":"Nome do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_SITUACAO",
+       "description":"Tipo da situação de funcionamento do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_CINE_ROTULO",
+       "description":"Código de identificação do curso, conforme adaptação da Classificação Internacional Normalizada da Educação Cine/Unesco",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_GRAU_ACADEMICO",
+       "description":"Tipo do grau acadêmico conferido ao ao aluno pela conclusão dos requisitos exigidos pelo curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_MODALIDADE_ENSINO",
+       "description":"Tipo da modalidade de ensino do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_NIVEL_ACADEMICO",
+       "description":"Tipo do nível acadêmico do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_GRATUITO",
+       "description":"Informa se o curso é gratuito",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_ATRIBUTO_INGRESSO",
+       "description":"Tipo de atributo de ingresso do aluno",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_CARGA_HORARIA",
+       "description":"Carga horária mínima do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"DT_INICIO_FUNCIONAMENTO",
+       "description":"Data de início de funcionamento do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"DT_AUTORIZACAO_CURSO",
+       "description":"Data de autorização do curso",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_AJUDA_DEFICIENTE",
+       "description":"Informa se o curso garante condições de acessibilidade a pessoas com deficiência",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_DIGITAL",
+       "description":"Informa se o curso possui material didático digital acessível",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_AMPLIADO",
+       "description":"Informa se o curso possui material em formato impresso em caractere ampliado",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_TATIL",
+       "description":"Informa se o curso possui material  pedagógico tátil",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_IMPRESSO",
+       "description":"Informa se o curso possui material didático em formato impresso acessível",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_AUDIO",
+       "description":"Informa se o curso possui material em áudio",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_BRAILLE",
+       "description":"Informa se o curso possui material em Braille",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATERIAL_LIBRAS",
+       "description":"Informa se o curso possui material didático em língua brasileira de sinais",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_DISCIPLINA_LIBRAS",
+       "description":"Informa se o curso oferece disciplina de língua brasileira de sinais (libras)",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_TRADUTOR_LIBRAS",
+       "description":"Informa se o curso disponibiliza tradutor e intérprete de língua brasileira de sinais",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_GUIA_INTERPRETE",
+       "description":"Informa se o curso disponibiliza guia-intérprete",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_RECURSOS_COMUNICACAO",
+       "description":"Informa se o curso possui recursos  de acessibilidade à comunicação",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_RECURSOS_INFORMATICA",
+       "description":"Informa se o curso possui recursos de informática acessível",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_INTEGRAL",
+       "description":"Informa se o curso presencial funciona no turno integral",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_MATUTINO",
+       "description":"Informa se o curso presencial funciona no turno matutino",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_VESPERTINO",
+       "description":"Informa se o curso presencial funciona no turno vespertino",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_NOTURNO",
+       "description":"Informa se o curso presencial funciona no turno noturno",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_INTEGRALIZACAO_INTEGRAL",
+       "description":"Prazo mínimo de integralização do curso integral em número de anos ou fração",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_INTEGRALIZACAO_MATUTINO",
+       "description":"Prazo mínimo de integralização do curso matutino em número de anos ou fração",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_INTEGRALIZACAO_VESPERTINO",
+       "description":"Prazo mínimo de integralização do curso vespertino em número de anos ou fração",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_INTEGRALIZACAO_NOTURNO",
+       "description":"Prazo mínimo de integralização do curso noturno em número de anos ou fração",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_INTEGRALIZACAO_EAD",
+       "description":"Prazo mínimo de integralização dos cursos EaD em número de anos ou fração",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_OFERECE_DISC_SEMI_PRES",
+       "description":"Informa se o curso presencial oferece disciplina semipresencial",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NU_PERC_CARGA_SEMI_PRES",
+       "description":"Percentual de carga horária semipresencial oferecida  em curso presencial",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_POSSUI_LABORATORIO",
+       "description":"Informa se o curso possui laboratórios",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_NOVA_INTEGRAL",
+       "description":"Quantidade de inscritos no processo seletivo de vagas novas no turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_NOVA_MATUTINO",
+       "description":"Quantidade de inscritos no processo seletivo de vagas novas no turno matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_NOVA_VESPERTINO",
+       "description":"Quantidade de inscritos no processo seletivo de vagas novas no turno vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_NOVA_NOTURNO",
+       "description":"Quantidade de inscritos no processo seletivo de vagas novas no turno noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_NOVA_EAD",
+       "description":"Quantidade de inscritos no processo seletivo de vagas novas em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_REMAN_INTEGRAL",
+       "description":"Quantidade de inscritos no processo seletivo de vagas remanescentes no turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_REMAN_MATUTINO",
+       "description":"Quantidade de inscritos no processo seletivo de vagas remanescentes no turno matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_REMAN_VESPERTINO",
+       "description":"Quantidade de inscritos no processo seletivo de vagas remanescentes no turno vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_REMAN_NOTURNO",
+       "description":"Quantidade de inscritos no processo seletivo de vagas remanescentes no turno noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_VAGA_REMAN_EAD",
+       "description":"Quantidade de inscritos no processo seletivo de vagas remanescentes em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PROG_ESP_INTEGRAL",
+       "description":"Quantidade de inscritos nas vagas oferecidas para programas especiais no turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PROG_ESP_MATUTINO",
+       "description":"Quantidade de inscritos nas vagas oferecidas para programas especiais no turno matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PROG_ESP_VESPERTINO",
+       "description":"Quantidade de inscritos nas vagas oferecidas para programas especiais no turno vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PROG_ESP_NOTURNO",
+       "description":"Quantidade de inscritos nas vagas oferecidas para programas especiais no turno noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PROG_ESP_EAD",
+       "description":"Quantidade de inscritos nas vagas oferecidas para programas especiais em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PRINCIPAL_INTEGRAL",
+       "description":"Quantidade de inscritos nas vagas oferecidas principais no turno Integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PRINCIPAL_MATUTINO",
+       "description":"Quantidade de inscritos nas vagas oferecidas principais no turno Matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PRINCIPAL_VESPERTINO",
+       "description":"Quantidade de inscritos nas vagas oferecidas principais no turno Vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PRINCIPAL_NOTURNO",
+       "description":"Quantidade de inscritos nas vagas oferecidas principais no turno Noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_PRINCIPAL_EAD",
+       "description":"Quantidade de inscritos nas vagas oferecidas principais em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_OUTRA_VAGA_INTEGRAL",
+       "description":"Quantidade de inscritos em outras vagas no turno Integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_OUTRA_VAGA_MATUTINO",
+       "description":"Quantidade de inscritos em outras vagas no turno Matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_OUTRA_VAGA_VESPERTINO",
+       "description":"Quantidade de inscritos em outras vagas no turno Vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_OUTRA_VAGA_NOTURNO",
+       "description":"Quantidade de inscritos em outras vagas no turno Noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_OUTRA_VAGA_EAD",
+       "description":"Quantidade de inscritos em outras vagas em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_ANUAL_INTEGRAL",
+       "description":"Quantidade de inscritos nas vagas oferecidas no turno Integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_ANUAL_MATUTINO",
+       "description":"Quantidade de inscritos nas vagas oferecidas no turno Matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_ANUAL_VESPERTINO",
+       "description":"Quantidade de inscritos nas vagas oferecidas no turno Vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_ANUAL_NOTURNO",
+       "description":"Quantidade de inscritos nas vagas oferecidas no turno Noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSC_ANUAL_EAD",
+       "description":"Quantidade de inscritos nas vagas oferecidas em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_NOVAS_INTEGRAL",
+       "description":"Quantidade de vagas novas oferecidas nos cursos de turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_NOVAS_MATUTINO",
+       "description":"Quantidade de vagas novas oferecidas nos cursos de turno matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_NOVAS_VESPERTINO",
+       "description":"Quantidade de vagas novas oferecidas nos cursos de turno vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_NOVAS_NOTURNO",
+       "description":"Quantidade de vagas novas oferecidas nos cursos de turno noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_NOVAS_EAD",
+       "description":"Quantidade de vagas novas oferecidas nos cursos a distância",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_REMAN_INTEGRAL",
+       "description":"Quantidade de vagas remanescentes oferecidas nos cursos de turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_REMAN_MATUTINO",
+       "description":"Quantidade de vagas remanescentes oferecidas nos cursos de turno matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_REMAN_VESPERTINO",
+       "description":"Quantidade de vagas remanescentes oferecidas nos cursos de turno vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_REMAN_NOTURNO",
+       "description":"Quantidade de vagas remanescentes oferecidas nos cursos de turno noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_REMAN_EAD",
+       "description":"Quantidade de vagas remanescentes oferecidas nos cursos a distância",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PROG_ESP_INTEGRAL",
+       "description":"Quantidade de vagas oferecidas no turno integral para programas especiais",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PROG_ESP_MATUTINO",
+       "description":"Quantidade de vagas oferecidas no turno matutino para programas especiais",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PROG_ESP_VESPERTINO",
+       "description":"Quantidade de vagas oferecidas no turno vespertino para programas especiais",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PROG_ESP_NOTURNO",
+       "description":"Quantidade de vagas oferecidas no turno noturno para programas especiais",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PROG_ESP_EAD",
+       "description":"Quantidade de vagas oferecidas em cursos EAD para programas especiais",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PRINCIPAL_INTEGRAL",
+       "description":"Quantidade de vagas principais oferecidas no turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PRINCIPAL_MATUTINO",
+       "description":"Quantidade de vagas principais oferecidas no turno Matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PRINCIPAL_VESPERTINO",
+       "description":"Quantidade de vagas principais oferecidas no turno Vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PRINCIPAL_NOTURNO",
+       "description":"Quantidade de vagas principais oferecidas no turno Noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_PRINCIPAL_EAD",
+       "description":"Quantidade de vagas principais oferecidas em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_OUTRAS_INTEGRAL",
+       "description":"Quantidade de outras vagas oferecidas no turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_OUTRAS_MATUTINO",
+       "description":"Quantidade de outras vagas oferecidas no turno Matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_OUTRAS_VESPERTINO",
+       "description":"Quantidade de outras vagas oferecidas no turno Vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_OUTRAS_NOTURNO",
+       "description":"Quantidade de outras vagas oferecidas no turno Noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_OUTRAS_EAD",
+       "description":"Quantidade de outras vagas oferecidas em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_ANUAL_INTEGRAL",
+       "description":"Quantidade de vagas anuais oferecidas no turno integral",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_ANUAL_MATUTINO",
+       "description":"Quantidade de vagas anuais oferecidas no turno Matutino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_ANUAL_VESPERTINO",
+       "description":"Quantidade de vagas anuais oferecidas no turno Vespertino",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_ANUAL_NOTURNO",
+       "description":"Quantidade de vagas anuais oferecidas no turno Noturno",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGAS_ANUAL_EAD",
+       "description":"Quantidade de vagas anuais oferecidas em cursos EAD",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_MATRICULA_TOTAL",
+       "description":"Quantidade de matrículas no curso",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_CONCLUINTE_TOTAL",
+       "description":"Quantidade de concluintes no curso",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INGRESSO_TOTAL",
+       "description":"Quantidade de ingressantes no curso",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INGRESSO_VAGA_NOVA",
+       "description":"Quantidade de ingressos em vagas novas oferecidas no curso",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INGRESSO_PROCESSO_SELETIVO",
+       "description":"Quantidade de ingressos por processo seletivo  principal no curso",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_VAGA_TOTAL",
+       "description":"Quantidade de vagas totais oferecidas no curso.",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_INSCRITO_TOTAL",
+       "description":"Quantidade de inscritos no curso.",
+       "type":"INTEGER"
+    }
+ ]
+}

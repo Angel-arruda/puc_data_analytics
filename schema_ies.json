@@ -1,0 +1,292 @@
+{
+    "BigQuery Schema":[
+    {
+       "mode":"NULLABLE",
+       "name":"NU_ANO_CENSO",
+       "description":"Ano de referência do Censo Superior",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_IES",
+       "description":"Código único de identificação da IES",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NO_IES",
+       "description":"Nome da IES",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"SG_IES",
+       "description":"Sigla da IES",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_MANTENEDORA",
+       "description":"Código único de identificação da mantenedora",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"NO_MANTENEDORA",
+       "description":"Nome da mantenedora",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_CATEGORIA_ADMINISTRATIVA",
+       "description":"Tipo da Categoria Administrativa",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_ORGANIZACAO_ACADEMICA",
+       "description":"Tipo da Organização Acadêmica",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_REGIAO",
+       "description":"Código do IBGE da Região Geográfica da IES (reitoria / sede administrativa)",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_UF",
+       "description":"Código do IBGE da Unidade da Federação da IES ",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"CO_MUNICIPIO",
+       "description":"Código do IBGE do Municipio da IES (reitoria / sede administrativa)",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_CAPITAL",
+       "description":"Informa se a IES (reitoria / sede administrativa) está localizada na capital de um Estado",
+       "type":"STRING"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_TOTAL",
+       "description":"Quantidade de funcionários técnico-administrativos",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_FUNDAMENTAL_INCOMP_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com ensino fundamental incompleto",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_FUNDAMENTAL_INCOMP_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com ensino fundamental incompleto",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_FUNDAMENTAL_COMP_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com ensino fundamental completo",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_FUNDAMENTAL_COMP_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com ensino fundamental completo",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_MEDIO_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com ensino médio",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_MEDIO_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com ensino médio",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_SUPERIOR_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com nível superior",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_SUPERIOR_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com nível superior",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_ESPECIALIZACAO_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com especialização",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_ESPECIALIZACAO_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com especialização",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_MESTRADO_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com mestrado",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_MESTRADO_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com mestrado",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_DOUTORADO_FEM",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo feminino com doutorado",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_TEC_DOUTORADO_MASC",
+       "description":"Quantidade de funcionários técnico-administrativos do sexo masculino com doutorado",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_ACESSO_PORTAL_CAPES",
+       "description":"Informa se as bibliotecas da IES tem acesso ao portal Capes de periódicos",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_ACESSO_OUTRAS_BASES",
+       "description":"Informa se as bibliotecas da IES tem acesso a outras bases de dados licenciadas ou compradas",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_ASSINA_OUTRA_BASE",
+       "description":"Informa se as bibliotecas da IES assina outras bases de dados licenciadas ou compradas",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_REPOSITORIO_INSTITUCIONAL",
+       "description":"Informa se a IES possui base de dados online que reúne de maneira organizada a produção científica da instituição.",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_BUSCA_INTEGRADA",
+       "description":"Informa se as bibliotecas da IES oferecem serviços pela internet",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_SERVICO_INTERNET",
+       "description":"Informa se as bibliotecas da IES oferecem serviços pela internet",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_PARTICIPA_REDE_SOCIAL",
+       "description":"Informa se a biblioteca participam de Redes Sociais",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"IN_CATALOGO_ONLINE",
+       "description":"Informa se a IES possui ferramenta de recuperação de informação que permite ao usuário consultar, de forma local ou remota, a existência e disponibilidade de itens do acervo da(s) biblioteca(s).",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_PERIODICO_ELETRONICO",
+       "description":"Quantidade de títulos de periódicos eletrônicos adquiridos pelas bibliotecas por meio de compra, doação ou permuta. ",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"QT_LIVRO_ELETRONICO",
+       "description":"Quantidade de títulos de livros eletrônicos disponibilizados pela biblioteca convertidos ao formato digital ou originalmente produzidos nesse formato para serem lidos em computador ou outros dispositivos.",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"TP_REFERENTE",
+       "description":"Tipo de entidade à qual é referente o dado financeiro",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_RECEITA_PROPRIA",
+       "description":"Valor das receitas próprias auferidas pela Mantenedora ou pela IES no ano de referência",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_RECEITA_TRANSFERENCIA",
+       "description":"Valor de transferências auferidas pela Mantenedora ou pela IES no ano de referência",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_RECEITA_OUTRA",
+       "description":"Valor de outras receitas auferidas pela Mantenedora ou pela IES no ano de referência",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_PESSOAL_DOCENTE",
+       "description":"Valor das despesas com remuneração de pessoal - docentes ativos da IES ou da mantenedora",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_PESSOAL_TECNICO",
+       "description":"Valor das despesas com remuneração de pessoal técnico-administrativo ativo/pedagógicos da IES ou da mantenedora",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_PESSOAL_ENCARGO",
+       "description":"Valor das despesas com benefícios e encargos sociais de todo o pessoal da IES ou da mantenedora",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_CUSTEIO",
+       "description":"Valor das despesas para a manutenção e custeio da IES ou da mantenedora  (Não inclui  despesas com pessoal.)",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_INVESTIMENTO",
+       "description":"Valor das despesas de investimentos (despesas de capital) realizadas nas IES ou na mantenedora",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_PESQUISA",
+       "description":"Valor das despesas com Pesquisa e Desenvolvimento da IES ou da mantenedora",
+       "type":"INTEGER"
+    },
+    {
+       "mode":"NULLABLE",
+       "name":"VL_DESPESA_OUTRA",
+       "description":"Valor de dispêndios não contemplados nos demais campos relativos à despesa",
+       "type":"INTEGER"
+    }
+ ]
+}

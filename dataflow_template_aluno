@@ -1,0 +1,65 @@
+gcloud dataflow jobs run job_aluno_2019\
+    --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
+    --region us-central1 \
+    --parameters \
+javascriptTextTransformFunctionName=transform,\
+JSONPath=gs://angelica_teste_looker/transient/job_configuration/schema_aluno.json,\
+javascriptTextTransformGcsPath=gs://angelica_teste_looker/transient/udf_path_aluno.js,\
+inputFilePattern=gs://angelica_teste_looker/historical_files/DM_ALUNO_2019.CSV,\
+outputTable=,\
+bigQueryLoadingTemporaryDirectory=gs://bigquery_temp_teste_censo
+
+gcloud dataflow jobs run job_dm_aluno_2018\
+    --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
+    --region us-central1 \
+    --parameters \
+javascriptTextTransformFunctionName=transform,\
+JSONPath=gs://angelica_teste_looker/schema_aluno.json,\
+javascriptTextTransformGcsPath=gs://angelica_teste_looker/udf_path_aluno.js,\
+inputFilePattern=gs://angelica_teste_looker/DM_ALUNO_2018.CSV,\
+outputTable=,\
+bigQueryLoadingTemporaryDirectory=gs://bigquery_temp_teste_censo
+
+gcloud dataflow jobs run job_dm_curso_2019\
+    --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
+    --region us-central1 \
+    --parameters \
+javascriptTextTransformFunctionName=transform,\
+JSONPath=gs://angelica_teste_looker/schema_curso.json,\
+javascriptTextTransformGcsPath=gs://angelica_teste_looker/transient/udf_path_curso.js,\
+inputFilePattern=gs://angelica_teste_looker/historical/DM_CURSO_2019.CSV,\
+outputTable=,\
+bigQueryLoadingTemporaryDirectory=gs://bigquery_temp_teste_censo
+
+gcloud dataflow jobs run job_dm_curso_2018\
+    --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
+    --region us-central1 \
+    --parameters \
+javascriptTextTransformFunctionName=transform,\
+JSONPath=gs://angelica_teste_looker/schema_curso.json,\
+javascriptTextTransformGcsPath=gs://angelica_teste_looker/transient/udf_path_curso.js,\
+inputFilePattern=gs://angelica_teste_looker/historical_files/DM_CURSO_2018.CSV,\
+outputTable=,\
+bigQueryLoadingTemporaryDirectory=gs://bigquery_temp_teste_censo
+
+gcloud dataflow jobs run job_dm_ies_2019\
+    --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
+    --region us-central1 \
+    --parameters \
+javascriptTextTransformFunctionName=transform,\
+JSONPath=gs://angelica_teste_looker/schema_ies.json,\
+javascriptTextTransformGcsPath=gs://angelica_teste_looker/udf_path_ies.js,\
+inputFilePattern=gs://angelica_teste_looker/DM_IES_2019.CSV,\
+outputTable=,\
+bigQueryLoadingTemporaryDirectory=gs://bigquery_temp_teste_censo
+
+gcloud dataflow jobs run job_dm_ies_2018\
+    --gcs-location gs://dataflow-templates/latest/GCS_Text_to_BigQuery \
+    --region us-central1 \
+    --parameters \
+javascriptTextTransformFunctionName=transform,\
+JSONPath=gs://angelica_teste_looker/schema_ies.json,\
+javascriptTextTransformGcsPath=gs://angelica_teste_looker/udf_path_ies.js,\
+inputFilePattern=gs://angelica_teste_looker/DM_IES_2018.CSV,\
+outputTable=,\
+bigQueryLoadingTemporaryDirectory=gs://bigquery_temp_teste_censo
